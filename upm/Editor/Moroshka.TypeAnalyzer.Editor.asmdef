@@ -1,0 +1,18 @@
+{
+    "name": "Moroshka.TypeAnalyzer.Editor",
+    "rootNamespace": "Moroshka.Typeanalyzer.Editor",
+    "references": [
+        "GUID:13904ee9cf3f75947a174f6d3b7221c7"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

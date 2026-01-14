@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>disable</Nullable>
+        <LangVersion>9</LangVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Moroshka.Typeanalyzer</Title>
+        <Authors>Moroshka</Authors>
+        <Copyright>Copyright (c) 2025 Moroshka</Copyright>
+        <RepositoryType>Git</RepositoryType>
+        <Version>1.0.0</Version>
+        <PackageId>Moroshka.Typeanalyzer</PackageId>
+        <RepositoryUrl>https://github.com/moroshka-game/moroshka-type-analyzer.git</RepositoryUrl>
+        <Description>`TypeAnalyzer` is a tool for analyzing type structures. It provides the ability to extract information about constructors, methods, properties, and fields of a given type. This tool is useful when working with reflection, where you need to dynamically examine types at runtime.</Description>
+        <PackageProjectUrl>https://github.com/moroshka-game/moroshka-type-analyzer</PackageProjectUrl>
+        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageTags>unity</PackageTags>
+        <PackageReleaseNotes>https://github.com/moroshka-game/moroshka-type-analyzer/blob/main/upm/CHANGELOG.md</PackageReleaseNotes>
+        <RootNamespace>Moroshka.Typeanalyzer</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\.github\README.md">
+          <Pack>true</Pack>
+          <PackagePath>\</PackagePath>
+          <Link>Docs\README.md</Link>
+        </None>
+        <None Include="..\LICENSE.md">
+          <Pack>true</Pack>
+          <PackagePath>\</PackagePath>
+          <Link>Docs\LICENSE.md</Link>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Moroshka.Xcp" Version="1.0.0" />
+      <PackageReference Include="Moroshka.Protect" Version="1.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="..\upm\Runtime\ITypeAnalyzer.cs">
+        <Link>Runtime\ITypeAnalyzer.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\TypeAnalysisOptions.cs">
+        <Link>Runtime\TypeAnalysisOptions.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\TypeAnalysisResult.cs">
+        <Link>Runtime\TypeAnalysisResult.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\TypeAnalyzer.cs">
+        <Link>Runtime\TypeAnalyzer.cs</Link>
+      </Compile>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{8EF38613-0C5F-423A-9790-8C0AB296613C}") = "Moroshka.TypeAnalyzer", "moroshka-type-analyzer\Moroshka.TypeAnalyzer.csproj", "{47B3880D-13D3-4BBE-826B-96A0191ABD21}"
+EndProject
+Project("{8EF38613-0C5F-423A-9790-8C0AB296613C}") = "Moroshka.TypeAnalyzer.Tests", "moroshka-type-analyzer-tests\Moroshka.TypeAnalyzer.Tests.csproj", "{67F83B6E-D875-4EB7-BF17-ADCDD0046849}"
+EndProject
+Project("{8EF38613-0C5F-423A-9790-8C0AB296613C}") = "Moroshka.TypeAnalyzer.Benchmark", "moroshka-type-analyzer-benchmark\Moroshka.TypeAnalyzer.Benchmark.csproj", "{6711263C-7743-4422-BECF-7F518F587816}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47B3880D-13D3-4BBE-826B-96A0191ABD21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B3880D-13D3-4BBE-826B-96A0191ABD21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B3880D-13D3-4BBE-826B-96A0191ABD21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B3880D-13D3-4BBE-826B-96A0191ABD21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F83B6E-D875-4EB7-BF17-ADCDD0046849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F83B6E-D875-4EB7-BF17-ADCDD0046849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F83B6E-D875-4EB7-BF17-ADCDD0046849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F83B6E-D875-4EB7-BF17-ADCDD0046849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6711263C-7743-4422-BECF-7F518F587816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6711263C-7743-4422-BECF-7F518F587816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6711263C-7743-4422-BECF-7F518F587816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6711263C-7743-4422-BECF-7F518F587816}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

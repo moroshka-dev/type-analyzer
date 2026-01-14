@@ -1,0 +1,25 @@
+{
+  "summary": {
+    "generatedon": "2026-01-14T18:15:36Z",
+    "parser": "MultiReportParser (2x OpenCoverParser)",
+    "assemblies": 1,
+    "classes": 2,
+    "files": 2,
+    "coveredlines": 45,
+    "uncoveredlines": 0,
+    "coverablelines": 45,
+    "totallines": 169,
+    "linecoverage": 100,
+    "coveredbranches": 0,
+    "totalbranches": 0,
+    "coveredmethods": 18,
+    "totalmethods": 18,
+    "methodcoverage": 100
+ },
+  "coverage": {
+    "assemblies": [
+      { "name": "Moroshka.TypeAnalyzer", "classes": 2, "coverage": 100, "coveredlines": 45, "coverablelines": 45, "totallines": 169, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 18, "totalmethods": 18, "classesinassembly": [
+        { "name": "Moroshka.TypeAnalyzer.TypeAnalysisResult", "coverage": 100, "coveredlines": 19, "coverablelines": 19, "totallines": 64, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 11, "totalmethods": 11 },
+        { "name": "Moroshka.TypeAnalyzer.TypeAnalyzer", "coverage": 100, "coveredlines": 26, "coverablelines": 26, "totallines": 105, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 7, "totalmethods": 7 } ] } ]
+  }
+}

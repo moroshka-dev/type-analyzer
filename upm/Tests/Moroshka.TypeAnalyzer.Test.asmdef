@@ -1,0 +1,20 @@
+{
+    "name": "Moroshka.TypeAnalyzer.Test",
+    "rootNamespace": "Moroshka.TypeAnalyzer.Test",
+    "references": [
+        "GUID:87d7eb29841d23e468abb05a70deb4e1",
+        "GUID:13904ee9cf3f75947a174f6d3b7221c7",
+        "GUID:9d8e442daaa28b34082e500f4825115f"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
