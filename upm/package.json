@@ -1,7 +1,7 @@
 {
   "name": "com.moroshka.type-analyzer",
   "displayName": "Moroshka.TypeAnalyzer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "`TypeAnalyzer` is a tool for analyzing type structures. It provides the ability to extract information about constructors, methods, properties, and fields of a given type. This tool is useful when working with reflection, where you need to dynamically examine types at runtime.",
   "unity": "6000.2",
   "unityRelease": "0f1",
