@@ -15,7 +15,7 @@
       "source": "local",
       "dependencies": {
         "com.moroshka.xcp": "1.0.0",
-        "com.moroshka.protect": "1.0.0"
+        "com.moroshka.protect": "1.1.0"
       }
     },
     "com.moroshka.xcp": {

@@ -35,7 +35,7 @@
 
     <ItemGroup>
       <PackageReference Include="Moroshka.Xcp" Version="1.0.0" />
-      <PackageReference Include="Moroshka.Protect" Version="1.0.0" />
+      <PackageReference Include="Moroshka.Protect" Version="1.1.0" />
     </ItemGroup>
 
     <ItemGroup>
